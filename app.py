@@ -53,15 +53,15 @@ st.subheader("Chat with the ML Salary Insights Bot")
 user_input = st.text_input("Ask a question about the data:")
 
 # Initialize Groq Client with API key from environment variable
-# client = Groq(api_key="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")
+client = Groq(api_key="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")
 # Load the environment variables from the .env file
-load_dotenv()
+# load_dotenv()
 
 # Retrieve the API key from the environment
-api_key = os.getenv("GROQ_API_KEY")
+# api_key = os.getenv("GROQ_API_KEY")
 
 # Initialize the Groq client with the API key
-client = Groq(api_key=api_key)
+# client = Groq(api_key=api_key)
 
 
 # Function to query Groq API for chat completion
