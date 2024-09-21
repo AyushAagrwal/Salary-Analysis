@@ -1,0 +1,5 @@
+streamlit==1.29.0  # Ensure to match with the version you're using
+pandas==2.1.4  # Adjust based on your pandas version
+python-dotenv==1.0.0 # For loading environment variables
+plotly==5.19.0  # For interactive charts and visualizations
+groq==0.9.0  # Replace with the actual Groq SDK version
